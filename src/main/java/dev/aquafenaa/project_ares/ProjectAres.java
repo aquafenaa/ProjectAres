@@ -1,4 +1,4 @@
-package dev.aquafenaa.destroystar;
+package dev.aquafenaa.project_ares;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -28,9 +28,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
-@Mod(DestroyStar.MODID)
-public class DestroyStar {
-    public static final String MODID = "destroystar";
+@Mod(ProjectAres.MODID)
+public class ProjectAres {
+    public static final String MODID = "project_ares";
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
@@ -49,7 +49,7 @@ public class DestroyStar {
                 output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());
 
-    public DestroyStar(FMLJavaModLoadingContext context) {
+    public ProjectAres(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
