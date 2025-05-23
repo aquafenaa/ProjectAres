@@ -128,11 +128,6 @@ repositories {
 }
 
 dependencies {
-    // Specify the version of Minecraft to use.
-    // Any artifact can be supplied so long as it has a "userdev" classifier artifact and is a compatible patcher artifact.
-    // The "userdev" classifier will be requested and setup by ForgeGradle.
-    // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
-    // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
@@ -142,9 +137,17 @@ dependencies {
 
     implementation fg.deobf("maven.modrinth:destroy:${destroy_version}")
     implementation fg.deobf("maven.modrinth:create-northstar:${northstar_version}")
+    implementation fg.deobf("maven.modrinth:create-new-age:${newage_version}")
+    implementation fg.deobf("maven.modrinth:cc-tweaked:${cc_tweaked_version}")
 
     implementation fg.deobf("maven.modrinth:petrolpark:${petrolpark_version}")
     implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")    
+    implementation fg.deobf("maven.modrinth:botarium:${botarium_version}")
+
+    // DEVELOPMENT ONLY--REMOVE ON RELEASE
+    implementation fg.deobf("maven.modrinth:kubejs:${kubejs_version}")
+    implementation fg.deobf("maven.modrinth:rhino:${rhino_version}")
+    implementation fg.deobf("maven.modrinth:architectury-api:${architectury_version}")
 
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime

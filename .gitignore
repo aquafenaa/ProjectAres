@@ -20,7 +20,8 @@ build
 # other
 eclipse
 .vscode
-run
+run/*
+!run/kubejs/
 run-data
 
 # Files from Forge MDK
