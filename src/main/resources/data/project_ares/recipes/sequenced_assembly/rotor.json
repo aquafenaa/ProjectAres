@@ -25,7 +25,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "destroy:stainless_steel_rod"
+          "item": "project_ares:unfinished_rotor"
         },
         {
           "fluidTag": "project_ares:lubricants",

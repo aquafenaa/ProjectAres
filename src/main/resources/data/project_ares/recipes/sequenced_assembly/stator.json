@@ -8,19 +8,6 @@
   },
   "sequence": [
     {
-      "type": "create:cutting",
-      "ingredients": [
-        {
-          "item": "project_ares:unfinished_stator"
-        }
-      ],
-      "results": [
-        {
-          "item": "project_ares:unfinished_stator"
-        }
-      ]
-    },
-    {
       "type": "create:deploying",
       "ingredients": [
         {
