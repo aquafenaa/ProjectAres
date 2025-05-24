@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "project_ares:finished_stator"
+    },
+    {
+      "item": "project_ares:finished_rotor"
+    }
+  ],
+
+  "results": [
+    {
+      "item": "create_new_age:generator_coil"
+    }
+  ]
+}

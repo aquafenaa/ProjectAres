@@ -87,7 +87,22 @@
   ],
   "results": [
     {
+      "chance": 0.9,
       "item": "project_ares:finished_stator"
+    },
+    {
+      "chance": 0.05,
+      "item": "project_ares:copper_coil",
+      "count": 2
+    },
+    {
+      "chance": 0.03,
+      "item": "destroy:stainless_steel_sheet"
+    },
+    {
+      "chance": 0.02,
+      "item": "create_new_age:copper_wire",
+      "count": 4
     }
   ],
   "loops": 1

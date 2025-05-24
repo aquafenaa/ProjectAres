@@ -10,7 +10,7 @@ displayName="${mod_name}" #mandatory
 
 authors="${mod_authors}" #optional
 description='''${mod_description}'''
-displayURL="https://modrinth.com/project/project-ares"
+displayURL="https://modrinth.com/mod/project-ares/"
 
 [[dependencies.${mod_id}]] #optional
     # the modid of the dependency

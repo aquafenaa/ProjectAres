@@ -37,6 +37,22 @@
           "item": "project_ares:unfinished_rotor"
         }
       ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "project_ares:unfinished_rotor"
+        },
+        {
+          "item": "create:shaft"
+        }
+      ],
+      "results": [
+        {
+          "item": "project_ares:unfinished_rotor"
+        }
+      ]
     }
   ],
   "results": [
