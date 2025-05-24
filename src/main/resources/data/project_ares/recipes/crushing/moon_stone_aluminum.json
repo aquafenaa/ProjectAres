@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "northstar:moon_stone"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "chance": 0.10,
+      "item": "create:crushed_raw_aluminum"
+    },
+    {
+      "chance": 0.01,
+      "item": "destroy:oxidized_sodium_ingot"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "destroy:stainless_steel_rod"
+    },
+    {
+      "item": "create_new_age:copper_wire"
+    },
+    {
+      "item": "create_new_age:copper_wire"
+    },
+    {
+      "item": "create_new_age:copper_wire"
+    },
+    {
+      "item": "create_new_age:copper_wire"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "results": [
+    {
+      "item": "project_ares:copper_coil"
+    }
+  ]
+}

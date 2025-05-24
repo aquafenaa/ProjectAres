@@ -1,0 +1,11 @@
+{
+  "item.project_ares.aluminum_ingot": "Aluminum Ingot",
+
+  "item.project_ares.copper_coil": "Copper Coil",
+
+  "item.project_ares.unfinished_stator": "Unfinished Stator",
+  "item.project_ares.finished_stator": "Finished Stator",
+  
+  "item.project_ares.unfinished_rotor": "Unfinished Rotor",
+  "item.project_ares.finished_rotor": "Finished Rotor"
+}

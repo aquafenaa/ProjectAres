@@ -146,6 +146,7 @@ dependencies {
 
     // DEVELOPMENT ONLY--REMOVE ON RELEASE
     implementation fg.deobf("maven.modrinth:kubejs:${kubejs_version}")
+    implementation fg.deobf("maven.modrinth:kubejs-create:${createjs_version}")
     implementation fg.deobf("maven.modrinth:rhino:${rhino_version}")
     implementation fg.deobf("maven.modrinth:architectury-api:${architectury_version}")
 

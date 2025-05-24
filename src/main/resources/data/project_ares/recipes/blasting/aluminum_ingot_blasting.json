@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+
+  "ingredient": {
+    "item": "create:crushed_raw_aluminum"
+  },
+  "result": "project_ares:aluminum_ingot"
+}

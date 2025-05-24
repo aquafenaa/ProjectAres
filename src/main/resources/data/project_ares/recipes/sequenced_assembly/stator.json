@@ -1,0 +1,107 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "destroy:stainless_steel_sheet"
+  },
+  "transitionalItem": {
+    "item": "project_ares:unfinished_stator"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "project_ares:unfinished_stator"
+        }
+      ],
+      "results": [
+        {
+          "item": "project_ares:unfinished_stator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "project_ares:unfinished_stator"
+        },
+        {
+          "item": "project_ares:copper_coil"
+        }
+      ],
+      "results": [
+        {
+          "item": "project_ares:unfinished_stator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "project_ares:unfinished_stator"
+        },
+        {
+          "item": "project_ares:copper_coil"
+        }
+      ],
+      "results": [
+        {
+          "item": "project_ares:unfinished_stator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "project_ares:unfinished_stator"
+        },
+        {
+          "item": "project_ares:copper_coil"
+        }
+      ],
+      "results": [
+        {
+          "item": "project_ares:unfinished_stator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "project_ares:unfinished_stator"
+        },
+        {
+          "item": "destroy:stainless_steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "project_ares:unfinished_stator"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "project_ares:unfinished_stator"
+        }
+      ],
+      "results": [
+        {
+          "item": "project_ares:unfinished_stator"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "project_ares:finished_stator"
+    }
+  ],
+  "loops": 1
+}
