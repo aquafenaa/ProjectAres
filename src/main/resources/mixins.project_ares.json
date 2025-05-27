@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "compatabilitylevel": "JAVA_17",
+  "package": "dev.aquafenaa.project_ares.mixin",
+  "refmap": "project_ares.mixin-refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "VatAtmosphereMixin"
+  ]
+}

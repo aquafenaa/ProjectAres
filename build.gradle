@@ -20,6 +20,15 @@ base {
     archivesName = mod_id
 }
 
+mixin {
+    add sourceSets.main, 'mixins.project_ares.refmap.json'
+    config 'mixins.project_ares.json'
+
+    debug.verbose = true
+    debug.export = true
+    dumpTargetOnFailure = true
+}
+
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
